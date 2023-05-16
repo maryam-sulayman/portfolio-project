@@ -1,0 +1,38 @@
+:root {
+  --primary-color: pink;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin: 50px 0 0 0;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+.contact-me-button {
+  text-decoration: none;
+  padding: 15px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: white;
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+}
+.about-me-button {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+}
