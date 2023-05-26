@@ -76,7 +76,7 @@ strong {
 .btn-color:hover {
   background-color: var(--primary-color);
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 40px;
   }
@@ -99,7 +99,7 @@ strong {
   }
   .project-button {
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     width: 60%;
   }
   p {
