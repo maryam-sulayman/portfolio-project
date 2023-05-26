@@ -76,3 +76,33 @@ strong {
 .btn-color:hover {
   background-color: var(--primary-color);
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .about-me-projects {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  #contact {
+    font-size: 30px;
+  }
+  strong {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .project-button {
+    font-size: 20px;
+    padding: 20px;
+    width: 60%;
+  }
+  p {
+    margin: 20px;
+  }
+}
